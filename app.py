@@ -5,7 +5,7 @@ import pandas as pd # used for using the dataset
 import matplotlib.pyplot as plt # used for the data visualizations
 import seaborn as sns # acts as  a wrapper for matplotlib, it basically makes a longer code one or two line syntax
 # loading the dataset
-df = pd.read_csv("/home/achintya/digitRecognizer/dataset/train.csv") #used to read the scv dataset
+df = pd.read_csv("/home/achintya/digitRecognizer/train.csv") #used to read the scv dataset
 print("printing the the 5 rows of data")
 time.sleep(3)
 print(df.head()) # prints the first 5 rows of the dataset
